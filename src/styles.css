@@ -15,3 +15,42 @@ body {
     background-repeat: no-repeat;
 }
 
+.main-area::before {
+    content: "";
+    inset: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.main-text-area {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.name-text {
+    font-size: 70px;
+    font-family: Monaco, monospace;
+    font-weight: 600;
+    position: relative;
+}
+
+.about-text {
+    font-size: 20px;
+    font-family: Monaco, monospace;
+    font-weight: 500;
+}
+
+.reserved-space {
+    width: 25dvw;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
