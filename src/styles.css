@@ -30,18 +30,17 @@ body {
     justify-content: center;
     color: white;
     position: relative;
+    font-family: Monaco, monospace;
 }
 
 .name-text {
     font-size: 70px;
-    font-family: Monaco, monospace;
     font-weight: 600;
     position: relative;
 }
 
 .about-text {
-    font-size: 20px;
-    font-family: Monaco, monospace;
+    font-size: 40px;
     font-weight: 500;
 }
 
@@ -52,5 +51,26 @@ body {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.link {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
+.link-section {
+    font-size: 25px
+}
+
+.vertical-divider {
+    display: inline-block;
+    border-color: white;
+    border-width: 1px; 
+    border-style: solid;
+    vertical-align: middle;
+    width: 0;
+    height: 25px;
 }
 
